@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    border: 2px solid #333;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items: baseline;
+}
+
+.item {
+    background-color: lightblue;
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.item {
+    flex-basis: 150px;
+}
+
+.item {
+    flex-shrink: 0;
+    flex: 1;
+    align-self: flex-end;
+}
